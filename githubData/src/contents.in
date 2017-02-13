@@ -1,0 +1,89 @@
+{
+  "sha": "25e541c38ec141de86d89b296887ffb383f40b09",
+  "commit": {
+    "author": {
+      "name": "twant",
+      "email": "taylor.want@gmail.com",
+      "date": "2016-10-13T20:18:05Z"
+    },
+    "committer": {
+      "name": "twant",
+      "email": "taylor.want@gmail.com",
+      "date": "2016-10-13T20:18:05Z"
+    },
+    "message": "commented uber.rb",
+    "tree": {
+      "sha": "79084da9453bdd19294b181eb7ac3d94dcad6367",
+      "url": "https://api.github.com/repos/twant/uber/git/trees/79084da9453bdd19294b181eb7ac3d94dcad6367"
+    },
+    "url": "https://api.github.com/repos/twant/uber/git/commits/25e541c38ec141de86d89b296887ffb383f40b09",
+    "comment_count": 0
+  },
+  "url": "https://api.github.com/repos/twant/uber/commits/25e541c38ec141de86d89b296887ffb383f40b09",
+  "html_url": "https://github.com/twant/uber/commit/25e541c38ec141de86d89b296887ffb383f40b09",
+  "comments_url": "https://api.github.com/repos/twant/uber/commits/25e541c38ec141de86d89b296887ffb383f40b09/comments",
+  "author": {
+    "login": "twant",
+    "id": 12232821,
+    "avatar_url": "https://avatars.githubusercontent.com/u/12232821?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/twant",
+    "html_url": "https://github.com/twant",
+    "followers_url": "https://api.github.com/users/twant/followers",
+    "following_url": "https://api.github.com/users/twant/following{/other_user}",
+    "gists_url": "https://api.github.com/users/twant/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/twant/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/twant/subscriptions",
+    "organizations_url": "https://api.github.com/users/twant/orgs",
+    "repos_url": "https://api.github.com/users/twant/repos",
+    "events_url": "https://api.github.com/users/twant/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/twant/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "twant",
+    "id": 12232821,
+    "avatar_url": "https://avatars.githubusercontent.com/u/12232821?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/twant",
+    "html_url": "https://github.com/twant",
+    "followers_url": "https://api.github.com/users/twant/followers",
+    "following_url": "https://api.github.com/users/twant/following{/other_user}",
+    "gists_url": "https://api.github.com/users/twant/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/twant/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/twant/subscriptions",
+    "organizations_url": "https://api.github.com/users/twant/orgs",
+    "repos_url": "https://api.github.com/users/twant/repos",
+    "events_url": "https://api.github.com/users/twant/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/twant/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0755c4c2303c4a73adbbe657ee9c345a47273ff4",
+      "url": "https://api.github.com/repos/twant/uber/commits/0755c4c2303c4a73adbbe657ee9c345a47273ff4",
+      "html_url": "https://github.com/twant/uber/commit/0755c4c2303c4a73adbbe657ee9c345a47273ff4"
+    }
+  ],
+  "stats": {
+    "total": 15,
+    "additions": 15,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "98b7c7ff3a5cf7db179e23f34ed057dc6b82f757",
+      "filename": "fdsfs/uber.rb",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "changes": 15,
+      "blob_url": "https://github.com/twant/uber/blob/25e541c38ec141de86d89b296887ffb383f40b09/uber.rb",
+      "raw_url": "https://github.com/twant/uber/raw/25e541c38ec141de86d89b296887ffb383f40b09/uber.rb",
+      "contents_url": "https://api.github.com/repos/twant/uber/contents/uber.rb?ref=25e541c38ec141de86d89b296887ffb383f40b09",
+      "patch": "@@ -0,0 +1,15 @@\n+#Welcome to the Uber lab! Today you will be writing a method to help Uber calculate how much to charge its customers. Uber's model charges people by how far they travel (mileage) and how long they are in the car. Some parts of the method have been coded or commented in for you. Your job is to write the rest. You can test the accuracy of your model at: https://www.uber.com/cities/denver \n+\n+#Important info: Uber in Denver charges a $7.00 base fare, $0.35 per minute, and $3.20 per mile\n+def uber(mileage, minutes)\n+  base_fare=7\n+  \n+  \n+  \n+end\n+\n+#call your Uber method here\n+\n+#bonus: Uber has a $15 minimum fare. Use an if/else statement to ensure that if the total comes out to be less than $15, the method automatically returns $15.\n+\n+#double bonus: add an additional parameter type. If the type inputted is \"UberBlack\", charge the normal rates above. If the type inputted is \"UberX\", charge $1.00 per mile, $0.13 per minute, and $0.75 base fare. \n\\ No newline at end of file"
+    }
+  ]
+}
